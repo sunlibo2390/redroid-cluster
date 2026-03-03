@@ -1,0 +1,8 @@
+# M0/M1 default instance profile (can be overridden later)
+host_id: host0
+image: redroid/redroid:12.0.0-latest
+instance_count: 1
+adb_base_port: 15500
+resources:
+  cpus: "2"
+  memory: "4g"
