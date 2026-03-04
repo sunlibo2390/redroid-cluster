@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Purpose: M0 host-level capacity probe and recommended instance count estimation.
+# Related: config/capacity_probe.env, docs/milestones/M0-baseline.md, runs/reports/m0-capacity-*.json
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

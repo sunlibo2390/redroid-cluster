@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Purpose: M0 precheck for host commands, docker reachability, disk, and candidate adb ports.
+# Related: scripts/capacity_probe.sh, docs/milestones/M0-baseline.md
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

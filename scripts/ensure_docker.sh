@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Purpose: Ensure docker daemon is reachable; try launching dockerd in nested/non-systemd environment if needed.
+# Related: scripts/redroid-cluster.sh, scripts/up.sh, scripts/status.sh, scripts/down.sh
 set -euo pipefail
 
 if docker info >/dev/null 2>&1; then
